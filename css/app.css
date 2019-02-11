@@ -2,12 +2,31 @@
     font-size: 1.125rem;
     text-anchor: middle;
   }
-  @media (min-width: 768px) {
+
+@media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
-  }
-  body {
+}
+
+body {
     min-height: 75rem;
-    padding-top: 4.5rem;
-  }
+}
+
+.bg-none {
+  background: rgba(0, 0, 0, 0.5)
+}
+
+.full-width-header {
+  margin-top: 0em;
+  padding-top: 9em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 3em;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/sutd-landscape-header.jpg");
+  color: white;
+}
+
+.full-width-header h1 {
+  color: white;
+}
